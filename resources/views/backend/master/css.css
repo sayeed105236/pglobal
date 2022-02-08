@@ -1,0 +1,109 @@
+.customize_span {
+    cursor: pointer;
+    background: #0085ba;
+    border-radius: 50%;
+    color: white;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 1px rgb(46 68 83 / 15%);
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+}
+.logo_top {
+    position: absolute;
+    top: 45px;
+}
+img#show1 {
+    width: 100px !important;
+    height: auto !important;
+}
+
+
+
+
+.cs_card {
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    padding: 3.3rem 5rem 2.6rem;
+}
+
+.card_main_heading {
+    display: block;
+    position: relative;
+    line-height: 1;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    border-radius: 0;
+    border: 0;
+    transition: border 0.3s, color 0.3s, background-color 0.3s;
+    color: #336699;
+    padding: 1.3rem 0;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.card_main_heading:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    border-top: 3px solid transparent;
+    transform: scaleX(0);
+    transition: transform 0.3s, border-color 0.3s;
+    border-top-width: 2px;
+    border-color: #336699;
+    transform: scaleX(1);
+}
+
+input#name {}
+
+.add_prdt_in {
+    box-shadow: 0 0 0 transparent;
+    border-radius: 4px;
+    border: 1px solid #8c8f94;
+    background-color: #fff;
+    color: #2c3338;
+    padding: 6px 8px;
+}
+
+.card-body {
+    background: white;
+}
+
+.container-fluid {
+    background: #f0f0f1;
+}
+
+.btn_cos {
+    padding: 5px 19px;
+    color: white;
+    background: #000000;
+    font-weight: bolder !important;
+    font-size: larger;
+}
+.Pending{
+    background: #ffc800;
+    color: #fff;
+}
+.Processing{
+    background: blue;
+    color: #fff;
+}
+.Complete{
+    background: green;
+    color: #fff;
+}
+.Cancel{
+    background: red;
+    color: #fff;
+}
+.approved {
+    padding: 2px 9px;
+    color: white;
+    background: #35bb2c;
+}
+
+.rejected {
+    padding: 2px 9px;
+    color: white;
+    background: #f13c06;
+}
